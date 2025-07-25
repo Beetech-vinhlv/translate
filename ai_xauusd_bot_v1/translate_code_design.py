@@ -9,10 +9,10 @@ from ttkbootstrap import Style
 from ttkbootstrap import ttk
 from ttkbootstrap.dialogs import Messagebox
 from translator import Translator
-from translation_dict import translate_dict
-translate_dict = {k.lower(): v for k, v in translate_dict.items()}
+from translate_list import translate_list
+translate_list = {k.lower(): v for k, v in translate_list.items()}
 
-translator = Translator(translate_dict)
+translator = Translator(translate_list)
 class ExcelTranslateApp:
     def __init__(self, root):
         self.root = root
@@ -138,7 +138,7 @@ class ExcelTranslateApp:
                                 changed = False
                                 for line in lines:
                                     stripped = line.strip()
-                                    translated = translate_dict.get(stripped.lower(), stripped)
+                                    translated = translate_list.get(stripped.lower(), stripped)
                                     translated_lines.append(translated)
                                     if translated != stripped:
                                         changed = True
