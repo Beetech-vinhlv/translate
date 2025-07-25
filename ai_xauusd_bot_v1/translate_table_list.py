@@ -344,6 +344,7 @@ translator_tables = {
         "クリエイターアイコン": "クリエイターアイコン\nicon của creator",
         "アカウント停止理由": "アカウント停止理由\nLý do đình chỉ account",
         "販売画像停止理由": "販売画像停止理由\nLý do đình chỉ ảnh bán hàng",
+        #mô tả kỹ thuật
         "FMDNP管理よりコンテンツ登録時に下書きボタン押下時に登録した場合": "Khi đăng ký nội dung từ quản lý FMDNP và nhấn nút 'Bản nháp' thì gán trạng thái này.",
         "FMDNPにて承認された際にプリント番号が採番を行った場合に付与するステータス": "Khi số in được cấp sau khi được phê duyệt từ FMDNP thì gán trạng thái này.",
         "クリエイターにより取り下げされた際に付与するステータス": "Khi creator rút lại yêu cầu thì gán trạng thái này.",
