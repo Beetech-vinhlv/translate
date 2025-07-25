@@ -112,7 +112,7 @@ class ExcelTranslateApp:
         )
         progress_bar.pack(pady=(10, 5))
         progress_bar["maximum"] = len(self.file_paths)
-
+        #ok tesst commit
         self.root.update_idletasks()
 
         for i, path in enumerate(self.file_paths):
